@@ -4,9 +4,9 @@ import Logo2 from "../assets/logo2.png";
 
 const Menu = () => {
   return (
-    <header className="bg-blue-500 text-white p-4">
+    <header className="bg-blue-500 text-white p-4 sticky top-0 z-50">
+      {" "}
       <div className="flex justify-center items-center space-x-10 text-3xl">
-        {" "}
         <img src={Logo2} alt="Logo" className="h-20" />
         <Link to="/">HOME</Link>
         <Link to="/the-team">THE TEAM</Link>
