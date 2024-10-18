@@ -18,7 +18,7 @@ const Header = () => {
       />
       {/* Logotyp med 100% opacitet */}
       <div className="flex justify-center items-center h-full relative z-10">
-        <img src={Logo} alt="Logo" className="max-w-xs" />
+        <img src={Logo} alt="Logo" className="max-w-xl" />
       </div>
     </header>
   );
