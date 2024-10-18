@@ -10,7 +10,7 @@ function App() {
       <Menu />
       <Header />
       <main>
-        <Outlet /> {/* Visar de komponenter som matchar den aktuella rutt */}
+        <Outlet />
       </main>
       <Footer />
     </div>
