@@ -1,4 +1,5 @@
 import Slider from "../components/Slider";
+import ElfsightInstagramFeed from "../components/ElfsightInstagramEmbed";
 
 const Home = () => {
   return (
@@ -33,7 +34,7 @@ const Home = () => {
 
       <Slider />
 
-      <p>Instagram </p>
+      <ElfsightInstagramFeed />
     </>
   );
 };
