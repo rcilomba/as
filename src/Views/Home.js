@@ -6,6 +6,7 @@ const Home = () => {
       <div className="flex justify-center items-center mt-24 mb-24">
         <div className="max-w-xl text-center">
           {" "}
+          <h1 className="text-3xl pb-6">Allstars Training Center</h1>
           <p>
             Joining Allstars Training Center is a great way to enhance your
             overall health and well-being, both physically and mentally. We
@@ -17,7 +18,13 @@ const Home = () => {
             confidence, and self-defense skills.
           </p>
           <br />
-          <h2>Link to new schedule</h2>
+          <h2 className="text-2xl">
+            Click{" "}
+            <a href="" className="text-blue-500">
+              here
+            </a>{" "}
+            to get to new schedule
+          </h2>
         </div>
       </div>
 

@@ -4,6 +4,7 @@ import "./index.css";
 import { RouterProvider } from "react-router-dom"; // Importera RouterProvider
 import { router } from "./router"; // Importera din router
 import reportWebVitals from "./reportWebVitals";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
