@@ -8,7 +8,7 @@ const NotFound = () => {
         <p>What you are looking for can't be found!</p>
         <p>
           Click{" "}
-          <span className="text-pink-700 ">
+          <span className="text-blue-500 ">
             <Link to={"/"}>here</Link>{" "}
           </span>
           to get back to the homepage.
