@@ -20,7 +20,10 @@ const Home = () => {
           <br />
           <h2 className="text-2xl">
             Click{" "}
-            <a href="" className="text-blue-500">
+            <a
+              href="https://www.allstarsgym.se/_files/ugd/f3a250_475d84b2cb714a96994d692d2af81b73.pdf"
+              className="text-blue-500"
+            >
               here
             </a>{" "}
             to get to new schedule
