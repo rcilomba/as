@@ -12,7 +12,8 @@ const Menu = () => {
   return (
     <header className="bg-blue-500 text-white p-4 sticky top-0 z-50">
       <div className="flex justify-between items-center">
-        <img src={Logo2} alt="Logo" className="h-20" />
+        {/* Top Logo - Hidden in Desktop View */}
+        <img src={Logo2} alt="Logo" className="h-20 md:hidden" />
         {/* Hamburger Icon for Mobile View */}
         <button
           onClick={toggleMenu}
@@ -37,25 +38,55 @@ const Menu = () => {
       </div>
       {/* Desktop Menu */}
       <nav className="hidden md:flex justify-center items-center space-x-10 text-3xl">
-        <Link to="/">HOME</Link>
-        <Link to="/the-team">THE TEAM</Link>
-        <Link to="/classes">CLASSES</Link>
-        <Link to="/memberships">MEMBERSHIPS</Link>
-        <Link to="/kids">KIDS</Link>
-        <Link to="/the-pros">THE PROS</Link>
-        <Link to="/contact">CONTACT</Link>
-        <img src={Logo2} alt="Logo" className="h-20" />
+        <img src={Logo2} alt="Logo" className="h-20 hidden md:block" />
+        <Link to="/" className="flex items-center">
+          HOME
+        </Link>
+        <Link to="/the-team" className="flex items-center">
+          THE TEAM
+        </Link>
+        <Link to="/classes" className="flex items-center">
+          CLASSES
+        </Link>
+        <Link to="/memberships" className="flex items-center">
+          MEMBERSHIPS
+        </Link>
+        <Link to="/kids" className="flex items-center">
+          KIDS
+        </Link>
+        <Link to="/the-pros" className="flex items-center">
+          THE PROS
+        </Link>
+        <Link to="/contact" className="flex items-center">
+          CONTACT
+        </Link>
+        <img src={Logo2} alt="Logo" className="h-20 hidden md:block" />
       </nav>
       {/* Mobile Menu */}
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 text-3xl">
-          <Link to="/">HOME</Link>
-          <Link to="/the-team">THE TEAM</Link>
-          <Link to="/classes">CLASSES</Link>
-          <Link to="/memberships">MEMBERSHIPS</Link>
-          <Link to="/kids">KIDS</Link>
-          <Link to="/the-pros">THE PROS</Link>
-          <Link to="/contact">CONTACT</Link>
+          <img src={Logo2} alt="Logo" className="h-20" />
+          <Link to="/" className="flex items-center">
+            HOME
+          </Link>
+          <Link to="/the-team" className="flex items-center">
+            THE TEAM
+          </Link>
+          <Link to="/classes" className="flex items-center">
+            CLASSES
+          </Link>
+          <Link to="/memberships" className="flex items-center">
+            MEMBERSHIPS
+          </Link>
+          <Link to="/kids" className="flex items-center">
+            KIDS
+          </Link>
+          <Link to="/the-pros" className="flex items-center">
+            THE PROS
+          </Link>
+          <Link to="/contact" className="flex items-center">
+            CONTACT
+          </Link>
           <img src={Logo2} alt="Logo" className="h-20" />
         </nav>
       )}
