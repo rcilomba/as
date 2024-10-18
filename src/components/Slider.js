@@ -4,6 +4,7 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "swiper/css/scrollbar";
+import "../components/Slider.css";
 import img1 from "../assets/img1.webp";
 import img2 from "../assets/img2.webp";
 import img3 from "../assets/img3.webp";
@@ -20,7 +21,7 @@ const Slider = () => {
   return (
     <>
       <section className="mb-24 max-sm:block">
-        <h1 className="text-5xl pt-10 pb-10">GALLERY</h1>
+        <h1 className="text-5xl pt-10">GALLERY</h1>
 
         <article className="sliderThree">
           <div
