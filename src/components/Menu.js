@@ -9,6 +9,10 @@ const Menu = () => {
     setIsOpen(!isOpen);
   };
 
+  const handleLinkClick = () => {
+    setIsOpen(false);
+  };
+
   return (
     <header className="bg-blue-500 text-white p-4 sticky top-0 z-50">
       <div className="flex justify-between items-center">
@@ -36,55 +40,105 @@ const Menu = () => {
           </svg>
         </button>
       </div>
+
       {/* Desktop Menu */}
       <nav className="hidden md:flex justify-center items-center space-x-10 text-3xl">
         <img src={Logo2} alt="Logo" className="h-20 hidden md:block" />
-        <Link to="/" className="flex items-center">
+        <Link to="/" className="flex items-center" onClick={handleLinkClick}>
           HOME
         </Link>
-        <Link to="/the-team" className="flex items-center">
+        <Link
+          to="/the-team"
+          className="flex items-center"
+          onClick={handleLinkClick}
+        >
           THE TEAM
         </Link>
-        <Link to="/classes" className="flex items-center">
+        <Link
+          to="/classes"
+          className="flex items-center"
+          onClick={handleLinkClick}
+        >
           CLASSES
         </Link>
-        <Link to="/memberships" className="flex items-center">
+        <Link
+          to="/memberships"
+          className="flex items-center"
+          onClick={handleLinkClick}
+        >
           MEMBERSHIPS
         </Link>
-        <Link to="/kids" className="flex items-center">
+        <Link
+          to="/kids"
+          className="flex items-center"
+          onClick={handleLinkClick}
+        >
           KIDS
         </Link>
-        <Link to="/the-pros" className="flex items-center">
+        <Link
+          to="/the-pros"
+          className="flex items-center"
+          onClick={handleLinkClick}
+        >
           THE PROS
         </Link>
-        <Link to="/contact" className="flex items-center">
+        <Link
+          to="/contact"
+          className="flex items-center"
+          onClick={handleLinkClick}
+        >
           CONTACT
         </Link>
         <img src={Logo2} alt="Logo" className="h-20 hidden md:block" />
       </nav>
+
       {/* Mobile Menu */}
       {isOpen && (
         <nav className="md:hidden flex flex-col items-center space-y-4 text-3xl">
           <img src={Logo2} alt="Logo" className="h-20" />
-          <Link to="/" className="flex items-center">
+          <Link to="/" className="flex items-center" onClick={handleLinkClick}>
             HOME
           </Link>
-          <Link to="/the-team" className="flex items-center">
+          <Link
+            to="/the-team"
+            className="flex items-center"
+            onClick={handleLinkClick}
+          >
             THE TEAM
           </Link>
-          <Link to="/classes" className="flex items-center">
+          <Link
+            to="/classes"
+            className="flex items-center"
+            onClick={handleLinkClick}
+          >
             CLASSES
           </Link>
-          <Link to="/memberships" className="flex items-center">
+          <Link
+            to="/memberships"
+            className="flex items-center"
+            onClick={handleLinkClick}
+          >
             MEMBERSHIPS
           </Link>
-          <Link to="/kids" className="flex items-center">
+          <Link
+            to="/kids"
+            className="flex items-center"
+            onClick={handleLinkClick}
+          >
             KIDS
           </Link>
-          <Link to="/the-pros" className="flex items-center">
+          <Link
+            to="/the-pros"
+            className="flex items-center"
+            onClick={handleLinkClick}
+          >
             THE PROS
           </Link>
-          <Link to="/contact" className="flex items-center">
+          <Link
+            to="/contact"
+            className="flex items-center"
+            onClick={handleLinkClick}
+          >
             CONTACT
           </Link>
           <img src={Logo2} alt="Logo" className="h-20" />
