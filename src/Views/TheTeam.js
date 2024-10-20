@@ -200,7 +200,8 @@ export const TheTeam = () => {
   return (
     <div>
       <section className="max-w-4xl md:max-w-2xl mx-auto text-lg">
-        <h1 className="text-blue-800 text-3xl pt-10 pb-3">Our story</h1>
+        <h1 className="text-blue-800 text-5xl pt-10 pb-1">The Team</h1>
+        <h2 className="text-blue-800 text-3xl pt-5 pb-3">Our story</h2>
         <p>
           Allstars Training Center kicked off 2013 with a vision to become a
           widely renowned training center. Since day one, the goal has been to
@@ -225,7 +226,7 @@ export const TheTeam = () => {
 
       {/* Founders */}
       <section className="founders flex flex-col items-center pt-10 pb-12">
-        <h1 className="text-blue-800 text-3xl">The Founders</h1>
+        <h2 className="text-blue-800 text-3xl">The Founders</h2>
         <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-4 p-4 mx-auto">
           {founders.map((founder, index) => (
             <div
@@ -267,7 +268,7 @@ export const TheTeam = () => {
       </section>
       {/* The Team */}
       <section>
-        <h1 className="text-blue-800 text-3xl">The Team</h1>
+        <h1 className="text-blue-800 text-3xl">Meet the Team</h1>
         <div className="max-w-3xl grid grid-cols-2 md:grid-cols-4 gap-4 p-4 mx-auto">
           {teams.map((team, index) => (
             <div
