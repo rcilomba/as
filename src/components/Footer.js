@@ -1,8 +1,9 @@
 import React from "react";
+import { Link } from "react-router-dom"; // Import Link from react-router-dom
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 text-gray-800 p-6">
+    <footer className="bg-gray-100 p-6 text-blue-800">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="flex flex-col mb-4 text-center md:text-left">
           <p className="text-xl font-bold">CONTACT US</p>
@@ -24,39 +25,39 @@ const Footer = () => {
           <p className="text-xl font-bold">CONTENT</p>
           <ul className="space-y-1 mt-2">
             <li>
-              <a href="/" className="hover:text-blue-500">
+              <Link to="/" className="hover:text-blue-500">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/the-team" className="hover:text-blue-500">
+              <Link to="/the-team" className="hover:text-blue-500">
                 The Team
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/classes" className="hover:text-blue-500">
+              <Link to="/classes" className="hover:text-blue-500">
                 Classes
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/memberships" className="hover:text-blue-500">
+              <Link to="/memberships" className="hover:text-blue-500">
                 Memberships
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/kids" className="hover:text-blue-500">
+              <Link to="/kids" className="hover:text-blue-500">
                 Kids
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/the-pros" className="hover:text-blue-500">
+              <Link to="/the-pros" className="hover:text-blue-500">
                 The Pros
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="/contact" className="hover:text-blue-500">
+              <Link to="/contact" className="hover:text-blue-500">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </div>

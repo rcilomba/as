@@ -59,7 +59,7 @@ const Memberships = () => {
         {items.map((item, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col"
+            className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col text-blue-800"
           >
             <img
               src={item.image}
