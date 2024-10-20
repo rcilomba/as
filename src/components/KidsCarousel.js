@@ -37,8 +37,8 @@ const KidsCarousel = () => {
       <div className="overflow-hidden">
         <img
           src={images[currentIndex]}
-          alt={`Gallery Image ${currentIndex + 1}`}
-          className="w-3/5 max-h-auto object-cover m-auto"
+          alt={`Kids class image ${currentIndex + 1}`} // Updated alt text
+          className="w-full h-48 object-cover m-auto" // Adjust height to a fixed value
         />
       </div>
       <div className="flex justify-between mt-4"></div>
