@@ -7,7 +7,9 @@ const Home = () => {
       <div className="flex justify-center items-center mt-24 mb-24">
         <div className="max-w-xl text-center">
           {" "}
-          <h1 className="text-3xl pb-6">Allstars Training Center</h1>
+          <h1 className="text-5xl pb-6 text-blue-800">
+            Allstars Training Center
+          </h1>
           <p>
             Joining Allstars Training Center is a great way to enhance your
             overall health and well-being, both physically and mentally. We
@@ -19,7 +21,7 @@ const Home = () => {
             confidence, and self-defense skills.
           </p>
           <br />
-          <h2 className="text-2xl">
+          {/* <h2 className="text-2xl">
             Click{" "}
             <a
               href="https://www.allstarsgym.se/_files/ugd/f3a250_475d84b2cb714a96994d692d2af81b73.pdf"
@@ -28,11 +30,13 @@ const Home = () => {
               here
             </a>{" "}
             to get to new schedule
-          </h2>
+          </h2> */}
         </div>
       </div>
 
       <Slider />
+
+      <h2 className="text-blue-800 text-3xl pb-10">Instagram</h2>
 
       <ElfsightInstagramFeed />
     </>

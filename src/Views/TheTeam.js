@@ -199,9 +199,33 @@ const teams = [
 export const TheTeam = () => {
   return (
     <div>
+      <section className="max-w-4xl md:max-w-2xl mx-auto text-lg">
+        <h1 className="text-blue-800 text-3xl pt-10 pb-3">Our story</h1>
+        <p>
+          Allstars Training Center kicked off 2013 with a vision to become a
+          widely renowned training center. Since day one, the goal has been to
+          establish and develop a familiar, inspiring atmosphere where
+          world-class fighters train side by side with beginners. Plenty are the
+          martial artists, the fighters that have climbed the national and
+          international rankings under our supervision—but the vast majority of
+          our family members have no intention at all to compete with
+          others—they come to challenge themselves. We are happy to see that we
+          are on track towards our vision. We are on a steady pace towards the
+          future, committing heart and soul into what we love.
+        </p>
+        <br />
+        <p>
+          In 2022, we opened up a training center in Torrevieja, Spain. In 2023,
+          we moved into a new venue in Solna, Stockholm. Both of these centers
+          are outstanding facilities.
+        </p>
+        <br />
+        <p>Come see for yourself. Transpire. Inspire. Join our family!</p>
+      </section>
+
       {/* Founders */}
-      <section className="founders flex flex-col items-center">
-        <h1>The Founders</h1>
+      <section className="founders flex flex-col items-center pt-10 pb-12">
+        <h1 className="text-blue-800 text-3xl">The Founders</h1>
         <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-4 p-4 mx-auto">
           {founders.map((founder, index) => (
             <div
@@ -243,7 +267,7 @@ export const TheTeam = () => {
       </section>
       {/* The Team */}
       <section>
-        <h1>The Team</h1>
+        <h1 className="text-blue-800 text-3xl">The Team</h1>
         <div className="max-w-3xl grid grid-cols-2 md:grid-cols-4 gap-4 p-4 mx-auto">
           {teams.map((team, index) => (
             <div

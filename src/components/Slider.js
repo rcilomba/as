@@ -21,7 +21,7 @@ const Slider = () => {
   return (
     <>
       <section className="mb-24 max-sm:block">
-        <h1 className="text-5xl pt-10 pb-10">GALLERY</h1>
+        <h1 className="text-3xl pt-10 pb-10 text-blue-800">Gallery</h1>
 
         <article className="sliderThree">
           <div
