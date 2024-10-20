@@ -1,9 +1,9 @@
 import React from "react";
-import { Link } from "react-router-dom"; // Import Link from react-router-dom
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 p-6 text-blue-800">
+    <footer className="bg-gray-100 p-6 text-blue-800 text-xl">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="flex flex-col mb-4 text-center md:text-left">
           <p className="text-xl font-bold">CONTACT US</p>

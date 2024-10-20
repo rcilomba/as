@@ -38,7 +38,7 @@ const KidsCarousel = () => {
         <img
           src={images[currentIndex]}
           alt={`Kids class ${currentIndex + 1}`} // Updated alt text
-          className="w-full h-48 object-cover m-auto" // Adjust height to a fixed value
+          className="w-3/5 h-auto object-cover m-auto" // Adjust height to a fixed value
         />
       </div>
       <div className="flex justify-between mt-4"></div>
