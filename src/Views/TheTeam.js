@@ -6,7 +6,27 @@ import jeppe from "../assets/TheTeam/jeppe.webp";
 import oliver from "../assets/TheTeam/oliver.webp";
 import alan from "../assets/TheTeam/alan.webp";
 import bianca from "../assets/TheTeam/bianca.webp";
-import { FaInstagram } from "react-icons/fa"; // Importera Instagram-ikonen
+import marek from "../assets/TheTeam/marek.webp";
+import manuel from "../assets/TheTeam/manuel.webp";
+import selman from "../assets/TheTeam/selman.webp";
+import mohammad from "../assets/TheTeam/mohammad.webp";
+import sanja from "../assets/TheTeam/sanja.webp";
+import elmir from "../assets/TheTeam/elmir.webp";
+import david from "../assets/TheTeam/david.webp";
+import najib from "../assets/TheTeam/najib.webp";
+import bang from "../assets/TheTeam/bang.webp";
+import athit from "../assets/TheTeam/athit.webp";
+import adam from "../assets/TheTeam/adam.webp";
+import leon from "../assets/TheTeam/leon.webp";
+import ola from "../assets/TheTeam/ola.webp";
+import sevan from "../assets/TheTeam/sevan.webp";
+import josefine from "../assets/TheTeam/josefine.webp";
+import jay from "../assets/TheTeam/jay.webp";
+import erik from "../assets/TheTeam/erik.webp";
+import micha from "../assets/TheTeam/micha.webp";
+import ulf from "../assets/TheTeam/ulf.webp";
+import muzammel from "../assets/TheTeam/muzammel.webp";
+import { FaInstagram } from "react-icons/fa";
 
 const founders = [
   {
@@ -55,132 +75,132 @@ const teams = [
     teamLink: "https://www.instagram.com/biancaantman/",
   },
   {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
+    teamName: "Marek Stanislawski",
+    teamTitle: "Kids coach (BJJ)",
+    teamImage: marek,
+    teamLink: "https://www.instagram.com/largestcarebear/",
+  },
+  {
+    teamName: "Manuel Carreira",
+    teamTitle: "kids coach (BJJ)",
+    teamImage: manuel,
+    teamLink: "https://www.instagram.com/manuelcarreira/",
+  },
+  {
+    teamName: "Selman Berisha",
+    teamTitle: "Coach (MMA)",
+    teamImage: selman,
+    teamLink: "https://www.instagram.com/selmanberisha/",
+  },
+  {
+    teamName: "Mohammad Babadivand",
+    teamTitle: "Coach (MMA)",
+    teamImage: mohammad,
+    teamLink: "https://www.instagram.com/mohammadbabadivand/",
+  },
+  {
+    teamName: "Sanja Trbojevic",
+    teamTitle: "Coach (MMA/Thai)",
+    teamImage: sanja,
+    teamLink: "https://www.instagram.com/sanjatrbojevic/",
+  },
+  {
+    teamName: "Elmir Abasov",
+    teamTitle: "Coach (Wrestling/Grappling)",
+    teamImage: elmir,
+    teamLink: "https://www.instagram.com/elmir_abasov/",
+  },
+  {
+    teamName: "David Jacobsson",
+    teamTitle: "Coach/PT/Fighter (MMA/Grappling)",
+    teamImage: david,
+    teamLink: "https://www.instagram.com/davejacobsson/",
+  },
+  {
+    teamName: "Najib Adams Morllah",
+    teamTitle: "Coach/PT (MMA)",
+    teamImage: najib,
+    teamLink: "https://www.instagram.com/n4jje/",
+  },
+  {
+    teamName: "Bang Chalong",
+    teamTitle: "Coach/PT (Thai)",
+    teamImage: bang,
+    teamLink: "https://www.instagram.com/bang_chalong/",
+  },
+  {
+    teamName: "Athit Praditphon",
+    teamTitle: "Coach/PT (Thai)",
+    teamImage: athit,
+    teamLink: "https://www.instagram.com/athitpraditphon/",
+  },
+  {
+    teamName: "Adam Frisäter",
+    teamTitle: "Caoach/PT (MMA/Boxing)",
+    teamImage: adam,
+    teamLink: "https://www.instagram.com/martialarts4life/",
+  },
+  {
+    teamName: "Leon Alsaksak",
+    teamTitle: "Coach/PT (Thaiboxing)",
+    teamImage: leon,
+    teamLink: "https://www.instagram.com/bang_chalong/",
+  },
+  {
+    teamName: "Ola Jacobsson",
+    teamTitle: "Coach/PT/Fighter (MMA/Grappling)",
+    teamImage: ola,
     teamLink: "https://www.instagram.com/jeppetraining/",
   },
   {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
+    teamName: "Sevan Madenijan",
+    teamTitle: "Coach/PT/Fighter (MMA/Grappling)",
+    teamImage: sevan,
+    teamLink: "https://www.instagram.com/monkey.d.sevan/",
   },
   {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
+    teamName: "Josefine Lindgren Knutsson",
+    teamTitle: "Coach/PT/Fighter (MMA/Thai)",
+    teamImage: josefine,
+    teamLink: "https://www.instagram.com/josefinethunder/",
   },
   {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
+    teamName: "Jay Elder",
+    teamTitle: "Coach (Boxing)",
+    teamImage: jay,
+    teamLink: "https://www.instagram.com/jayelder39/",
   },
   {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
+    teamName: "Erik Skoglund",
+    teamTitle: "Coach/PT (Boxing)",
+    teamImage: erik,
+    teamLink: "https://www.instagram.com/skoglunderik/",
   },
   {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
+    teamName: "Micha Tabagoua",
+    teamTitle: "Coach (Boxing)",
+    teamImage: micha,
+    teamLink: "https://www.instagram.com/tabagoua/",
   },
   {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
+    teamName: "Ulf Jonsson",
+    teamTitle: "Coach (Boxing)",
+    teamImage: ulf,
+    teamLink: "https://www.instagram.com/ujozen/",
   },
   {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
-  },
-  {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
-  },
-  {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
-  },
-  {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
-  },
-  {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
-  },
-  {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
-  },
-  {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
-  },
-  {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
-  },
-  {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
-  },
-  {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
-  },
-  {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
-  },
-  {
-    teamName: "Jeppe Hoffman",
-    teamTitle: "Front Desk/Coach/PT (Thaiboxing)",
-    teamImage: jeppe,
-    teamLink: "https://www.instagram.com/jeppetraining/",
-  },
-  {
-    teamName: "Oliver Roque",
-    teamTitle: "Front Desk/Coach/Pt (Thai)",
-    teamImage: oliver,
-    teamLink: "https://www.instagram.com/olive.rroque/",
+    teamName: "Muzammel Hoque Dewan",
+    teamTitle: "Front Desk/Janitor",
+    teamImage: muzammel,
+    teamLink: "https://www.instagram.com/alexthemauler/",
   },
 ];
 
 export const TheTeam = () => {
   return (
-    <div className="flex flex-col items-center">
+    <div>
       {/* Founders */}
-      <section>
+      <section className="founders flex flex-col items-center">
         <h1>The Founders</h1>
         <div className="max-w-3xl grid grid-cols-1 md:grid-cols-3 gap-4 p-4 mx-auto">
           {founders.map((founder, index) => (
