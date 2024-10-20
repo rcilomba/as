@@ -16,10 +16,8 @@ code {
     monospace;
 }
 
-.mySwiper,
+/* .mySwiper,
 .mySwiper2 {
   width: 100%;
-  /* Se till att båda har samma bredd */
-  height: 325px;
-  /* Justera höjden om det behövs */
-}
+  height: auto;
+} */

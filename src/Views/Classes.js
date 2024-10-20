@@ -84,10 +84,10 @@ export const Classes = () => {
                   className="w-full h-48 object-cover"
                 />
                 <div className="p-4">
-                  <h3 className="text-xl font-semibold text-blue-800">
+                  <h3 className="text-2xl font-semibold text-blue-800">
                     {item.title}
                   </h3>
-                  <p className="text-gray-600">{item.description}</p>
+                  <p className="text-gray-600 text-lg">{item.description}</p>
                 </div>
               </div>
             ))}
