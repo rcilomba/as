@@ -1,5 +1,5 @@
 import React from "react";
-import schedule from "../assets/schedule.png";
+import schedule from "../assets/schedule2.jpg";
 import mma from "../assets/classes/mma.webp";
 import thaiboxing from "../assets/classes/thaiboxing.webp";
 import bjj from "../assets/classes/bjj.webp";
