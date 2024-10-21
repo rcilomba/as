@@ -9,10 +9,10 @@ export const Kids = () => {
     <div>
       <section className="max-w-2xl m-auto">
         <h1 className="text-blue-800 text-5xl pt-10 pb-3">Kids</h1>
-        <h2 className="text-xl pb-5">
+        <h2 className="text-lg pb-5">
           Unlock the potential of your child from the age of 4 and up
         </h2>
-        <p className="pb-5 text-xl">
+        <p className="pb-5 text-lg">
           At Allstars, we believe every child has a champion within them waiting
           to shine. Our dedicated kids' classes are designed to foster
           confidence, discipline, and fun in a safe and nurturing environment.

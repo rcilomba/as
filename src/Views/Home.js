@@ -10,7 +10,7 @@ const Home = () => {
           <h1 className="text-5xl pb-6 text-blue-800">
             Allstars Training Center
           </h1>
-          <p className="text-xl">
+          <p className="text-lg">
             Joining Allstars Training Center is a great way to enhance your
             overall health and well-being, both physically and mentally. We
             offer a variety of training programs in Brazilian Jiu-Jitsu, MMA,

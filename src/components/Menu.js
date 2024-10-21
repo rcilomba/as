@@ -10,7 +10,11 @@ const Menu = () => {
   };
 
   const handleLinkClick = () => {
-    setIsOpen(false);
+    setIsOpen(false); // Close the menu
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth", // Smooth scroll to the top
+    });
   };
 
   return (
