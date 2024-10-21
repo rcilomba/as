@@ -3,12 +3,12 @@ import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-100 p-6 text-blue-800 text-xl">
+    <footer className="bg-gray-100 p-6 text-blue-800 text-lg">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
         <div className="flex flex-col mb-4 text-center md:text-left">
           <p className="text-xl font-bold">CONTACT US</p>
           <div className="flex items-center space-x-2 mt-2 justify-center md:justify-start">
-            <i className="fas fa-map-marker-alt text-xl"></i>
+            <i className="fas fa-map-marker-alt text-lg"></i>
             <p>Svetsarvägen 22, 171 41 Solna, Sweden</p>
           </div>
           <div className="flex items-center space-x-2 mt-2 justify-center md:justify-start">
@@ -22,7 +22,7 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col mb-4 text-center md:text-left">
-          <p className="text-xl font-bold">CONTENT</p>
+          <p className="text-lg font-bold">CONTENT</p>
           <ul className="space-y-1 mt-2">
             <li>
               <Link to="/" className="hover:text-blue-500">
@@ -63,8 +63,8 @@ const Footer = () => {
         </div>
 
         <div className="flex flex-col text-center md:text-left">
-          <p className="text-xl font-bold">FOLLOW US</p>
-          <div className="flex space-x-4 text-2xl mt-2 justify-center md:justify-start">
+          <p className="text-lg font-bold">FOLLOW US</p>
+          <div className="flex space-x-4 text-xl mt-2 justify-center md:justify-start">
             <a
               href="https://www.instagram.com"
               target="_blank"
