@@ -67,7 +67,7 @@ const Memberships = () => {
               className="w-full h-48 object-cover"
             />
             <div className="p-4 flex-1">
-              <h3 className="text-2xl font-semibold">{item.title}</h3>
+              <h3 className="text-xl font-semibold">{item.title}</h3>
               <p className="text-gray-600 text-lg">{item.description}</p>
             </div>
             <div className="flex flex-col items-center mb-4">
