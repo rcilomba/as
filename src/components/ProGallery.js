@@ -36,7 +36,7 @@ const ProGallery = () => {
   });
 
   return (
-    <section className="relative w-full max-w-7xl mx-auto pt-10 pb-10">
+    <section className="relative w-full max-w-screen-xl mx-auto pt-10 pb-10">
       <div className="overflow-hidden" {...handlers}>
         <img
           src={images[currentIndex]}

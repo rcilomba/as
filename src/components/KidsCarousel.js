@@ -37,7 +37,7 @@ const KidsCarousel = () => {
   });
 
   return (
-    <section className="relative w-full max-w-7xl mx-auto">
+    <section className="relative w-full max-w-screen-xl mx-auto">
       <div className="overflow-hidden" {...handlers}>
         {" "}
         {/* Attach swipe handlers here */}
