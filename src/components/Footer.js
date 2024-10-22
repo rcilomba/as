@@ -9,15 +9,29 @@ const Footer = () => {
           <p className="text-xl font-bold">CONTACT US</p>
           <div className="flex items-center space-x-2 mt-2 justify-center md:justify-start">
             <i className="fas fa-map-marker-alt text-lg"></i>
-            <p>Svetsarvägen 22, 171 41 Solna, Sweden</p>
+            <a
+              href="https://www.google.com/maps?q=Svetsarvägen+22,+171+41+Solna,+Sweden"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="hover:text-blue-500"
+            >
+              <p>Svetsarvägen 22, 171 41 Solna, Sweden</p>
+            </a>
           </div>
           <div className="flex items-center space-x-2 mt-2 justify-center md:justify-start">
             <i className="fas fa-phone-alt text-lg"></i>
-            <p>+46 8 31 50 23</p>
+            <a href="tel:+468315023" className="hover:text-blue-500">
+              <p>+46 8 31 50 23</p>
+            </a>
           </div>
           <div className="flex items-center space-x-2 mt-2 justify-center md:justify-start">
             <i className="fas fa-envelope text-lg"></i>
-            <p>info@allstarsgym.se</p>
+            <a
+              href="mailto:info@allstarsgym.se"
+              className="hover:text-blue-500"
+            >
+              <p>info@allstarsgym.se</p>
+            </a>
           </div>
         </div>
 

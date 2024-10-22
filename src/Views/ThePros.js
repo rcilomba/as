@@ -7,7 +7,7 @@ const ThePros = () => {
   return (
     <div>
       <h1 className="text-blue-800 text-5xl pt-10 pb-1">The Pros</h1>
-      <h2 className="text-2xl">
+      <h2 className="text-xl">
         Some of the world's best martial artists, proudly homegrown produced or
         further developed by ALLSTARS since 2013.
       </h2>
