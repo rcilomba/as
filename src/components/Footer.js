@@ -2,6 +2,10 @@ import React from "react";
 import { Link } from "react-router-dom";
 
 const Footer = () => {
+  const handleLinkClick = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" }); // Scroll to the top
+  };
+
   return (
     <footer className="bg-gray-100 p-6 text-blue-800 text-lg">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-6">
@@ -39,37 +43,65 @@ const Footer = () => {
           <p className="text-lg font-bold">CONTENT</p>
           <ul className="space-y-1 mt-2">
             <li>
-              <Link to="/" className="hover:text-blue-500">
+              <Link
+                to="/"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/the-team" className="hover:text-blue-500">
+              <Link
+                to="/the-team"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 The Team
               </Link>
             </li>
             <li>
-              <Link to="/classes" className="hover:text-blue-500">
+              <Link
+                to="/classes"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 Classes
               </Link>
             </li>
             <li>
-              <Link to="/memberships" className="hover:text-blue-500">
+              <Link
+                to="/memberships"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 Memberships
               </Link>
             </li>
             <li>
-              <Link to="/kids" className="hover:text-blue-500">
+              <Link
+                to="/kids"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 Kids
               </Link>
             </li>
             <li>
-              <Link to="/the-pros" className="hover:text-blue-500">
+              <Link
+                to="/the-pros"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 The Pros
               </Link>
             </li>
             <li>
-              <Link to="/contact" className="hover:text-blue-500">
+              <Link
+                to="/contact"
+                className="hover:text-blue-500"
+                onClick={handleLinkClick}
+              >
                 Contact
               </Link>
             </li>
